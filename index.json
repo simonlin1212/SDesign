@@ -1,0 +1,639 @@
+{
+  "name": "SDesign",
+  "generated": "2026-06-27",
+  "source": "nexu-io/open-design (Apache-2.0)",
+  "families": [
+    {
+      "key": "minimal-editorial",
+      "zh": "极简留白",
+      "en": "Minimal Editorial",
+      "desc": "大面积留白 + 中性色 + 单一强调色;克制、为阅读而生,靠排版和留白出高级感。",
+      "note": "留白要大、装饰要少、一个强调色;靠排版和留白出高级感,别加多余元素。",
+      "skins": [
+        "Loom",
+        "Airbnb",
+        "小红书",
+        "Pinterest",
+        "Slack",
+        "Stripe",
+        "PlayStation",
+        "Apple",
+        "Webflow",
+        "Airtable",
+        "Meta",
+        "微信",
+        "Bmw",
+        "Notion",
+        "Intercom",
+        "Mintlify",
+        "Vercel",
+        "Replicate",
+        "Coinbase",
+        "Minimax",
+        "Superhuman",
+        "PostHog",
+        "Together AI",
+        "Shadcn",
+        "Cohere",
+        "Cal",
+        "Nike",
+        "OpenAI",
+        "ElevenLabs",
+        "Ollama",
+        "Uber",
+        "Figma"
+      ]
+    },
+    {
+      "key": "tech-dark",
+      "zh": "科技暗黑",
+      "en": "Tech Dark",
+      "desc": "深色底 + 高对比 + 无衬线 + 单一霓虹/品牌强调色;冷峻精密,开发者/SaaS 气质(含终端等宽)。",
+      "note": "深色为底、强调色用得稀、网格精密对齐;可有极克制的微光,别滥用发光。",
+      "skins": [
+        "Spotify",
+        "MongoDB",
+        "OpenCode",
+        "HashiCorp",
+        "Discord",
+        "Sentry",
+        "Supabase",
+        "Shopify",
+        "Perplexity",
+        "Nvidia",
+        "Linear",
+        "Resend",
+        "Framer",
+        "xAI",
+        "Warp"
+      ]
+    },
+    {
+      "key": "warm-humanist",
+      "zh": "暖色人文",
+      "en": "Warm Humanist",
+      "desc": "奶油/陶土暖色 + 衬线大标题 + 大量留白;沉静、有人味、手作感。",
+      "note": "沉静克制、衬线大标题、大量留白;CTA 克制不花哨。",
+      "skins": [
+        "Arc",
+        "Cursor",
+        "Mistral AI",
+        "Starbucks",
+        "Claude",
+        "Kami",
+        "Lovable"
+      ]
+    },
+    {
+      "key": "cinematic-dark",
+      "zh": "电影暗调",
+      "en": "Cinematic Dark",
+      "desc": "电影级渐变 + 超大字 + 深色 + 媒体重 hero;震撼、高级、创作工具气质。",
+      "note": "可用大尺度渐变、光影、超大字、媒体重 hero 做震撼;深色电影感、动效优先。",
+      "skins": [
+        "Raycast",
+        "SpaceX",
+        "Runway"
+      ]
+    },
+    {
+      "key": "data-dense",
+      "zh": "数据密集",
+      "en": "Data Dense",
+      "desc": "图表/表格/指标为主 + 紧间距 + 暗色仪表盘;专业、信息高密度。",
+      "note": "信息高密度是对的——一屏多数据点/图表/表格正常,别强行留白;CTA、按钮可多放。",
+      "skins": [
+        "Binance",
+        "ClickHouse",
+        "GitHub"
+      ]
+    },
+    {
+      "key": "bold-playful",
+      "zh": "大胆彩色",
+      "en": "Bold & Playful",
+      "desc": "高饱和多色、插画装饰、硬边粗野、超大数字——彩色友好或反精致声明,都在这。",
+      "note": "可用 emoji、插画、装饰形状、圆角、超大数字、饱和单色块;要强烈抓眼,别追求精致克制。",
+      "skins": [
+        "Duolingo",
+        "Canva",
+        "Hugging Face",
+        "Wise"
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "loom",
+      "name": "Loom",
+      "accent": "#625df5",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "airbnb",
+      "name": "Airbnb",
+      "accent": "#ff385c",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "xiaohongshu",
+      "name": "小红书",
+      "accent": "#ff2442",
+      "bg": "#f5f5f5"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "pinterest",
+      "name": "Pinterest",
+      "accent": "#e60023",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "slack",
+      "name": "Slack",
+      "accent": "#4a154b",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "stripe",
+      "name": "Stripe",
+      "accent": "#533afd",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "playstation",
+      "name": "PlayStation",
+      "accent": "#0070cc",
+      "bg": "#000000"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "apple",
+      "name": "Apple",
+      "accent": "#0071e3",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "webflow",
+      "name": "Webflow",
+      "accent": "#146ef5",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "airtable",
+      "name": "Airtable",
+      "accent": "#1b61c9",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "meta",
+      "name": "Meta",
+      "accent": "#0064e0",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "wechat",
+      "name": "微信",
+      "accent": "#07c160",
+      "bg": "#ededed"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "bmw",
+      "name": "Bmw",
+      "accent": "#1c69d4",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "notion",
+      "name": "Notion",
+      "accent": "#0075de",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "intercom",
+      "name": "Intercom",
+      "accent": "#ff5600",
+      "bg": "#faf9f6"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "mintlify",
+      "name": "Mintlify",
+      "accent": "#18E299",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "vercel",
+      "name": "Vercel",
+      "accent": "#0070f3",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "replicate",
+      "name": "Replicate",
+      "accent": "#ea2804",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "coinbase",
+      "name": "Coinbase",
+      "accent": "#0052ff",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "minimax",
+      "name": "Minimax",
+      "accent": "#1456f0",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "superhuman",
+      "name": "Superhuman",
+      "accent": "#cbb7fb",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "posthog",
+      "name": "PostHog",
+      "accent": "#F54E00",
+      "bg": "#fdfdf8"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "together-ai",
+      "name": "Together AI",
+      "accent": "#010120",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "shadcn",
+      "name": "Shadcn",
+      "accent": "#000000",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "cohere",
+      "name": "Cohere",
+      "accent": "#1863dc",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "cal",
+      "name": "Cal",
+      "accent": "#0099ff",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "nike",
+      "name": "Nike",
+      "accent": "#111111",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "openai",
+      "name": "OpenAI",
+      "accent": "#10a37f",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "elevenlabs",
+      "name": "ElevenLabs",
+      "accent": "#000000",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "ollama",
+      "name": "Ollama",
+      "accent": "#000000",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "uber",
+      "name": "Uber",
+      "accent": "#000000",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "minimal-editorial",
+      "zh": "极简留白",
+      "skin": "figma",
+      "name": "Figma",
+      "accent": "#000000",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "spotify",
+      "name": "Spotify",
+      "accent": "#1ed760",
+      "bg": "#121212"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "mongodb",
+      "name": "MongoDB",
+      "accent": "#00ed64",
+      "bg": "#001e2b"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "opencode-ai",
+      "name": "OpenCode",
+      "accent": "#007aff",
+      "bg": "#201d1d"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "hashicorp",
+      "name": "HashiCorp",
+      "accent": "#1060ff",
+      "bg": "#15181e"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "discord",
+      "name": "Discord",
+      "accent": "#5865f2",
+      "bg": "#313338"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "sentry",
+      "name": "Sentry",
+      "accent": "#6a5fc1",
+      "bg": "#1f1633"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "supabase",
+      "name": "Supabase",
+      "accent": "#3ecf8e",
+      "bg": "#171717"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "shopify",
+      "name": "Shopify",
+      "accent": "#36f4a4",
+      "bg": "#000000"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "perplexity",
+      "name": "Perplexity",
+      "accent": "#a855f7",
+      "bg": "#0f0f10"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "nvidia",
+      "name": "Nvidia",
+      "accent": "#76b900",
+      "bg": "#000000"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "linear-app",
+      "name": "Linear",
+      "accent": "#5e6ad2",
+      "bg": "#08090a"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "resend",
+      "name": "Resend",
+      "accent": "#ff801f",
+      "bg": "#000000"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "framer",
+      "name": "Framer",
+      "accent": "#0099ff",
+      "bg": "#000000"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "x-ai",
+      "name": "xAI",
+      "accent": "#ffffff",
+      "bg": "#1f2228"
+    },
+    {
+      "family": "tech-dark",
+      "zh": "科技暗黑",
+      "skin": "warp",
+      "name": "Warp",
+      "accent": "#353534",
+      "bg": "#161412"
+    },
+    {
+      "family": "warm-humanist",
+      "zh": "暖色人文",
+      "skin": "arc",
+      "name": "Arc",
+      "accent": "#ff5f5f",
+      "bg": "#fdf3ec"
+    },
+    {
+      "family": "warm-humanist",
+      "zh": "暖色人文",
+      "skin": "cursor",
+      "name": "Cursor",
+      "accent": "#f54e00",
+      "bg": "#f2f1ed"
+    },
+    {
+      "family": "warm-humanist",
+      "zh": "暖色人文",
+      "skin": "mistral-ai",
+      "name": "Mistral AI",
+      "accent": "#fa520f",
+      "bg": "#fffaeb"
+    },
+    {
+      "family": "warm-humanist",
+      "zh": "暖色人文",
+      "skin": "starbucks",
+      "name": "Starbucks",
+      "accent": "#00754A",
+      "bg": "#f2f0eb"
+    },
+    {
+      "family": "warm-humanist",
+      "zh": "暖色人文",
+      "skin": "claude",
+      "name": "Claude",
+      "accent": "#c96442",
+      "bg": "#f5f4ed"
+    },
+    {
+      "family": "warm-humanist",
+      "zh": "暖色人文",
+      "skin": "kami",
+      "name": "Kami",
+      "accent": "#1b365d",
+      "bg": "#f5f4ed"
+    },
+    {
+      "family": "warm-humanist",
+      "zh": "暖色人文",
+      "skin": "lovable",
+      "name": "Lovable",
+      "accent": "#ff4d8d",
+      "bg": "#f7f4ed"
+    },
+    {
+      "family": "cinematic-dark",
+      "zh": "电影暗调",
+      "skin": "raycast",
+      "name": "Raycast",
+      "accent": "#FF6363",
+      "bg": "#07080a"
+    },
+    {
+      "family": "cinematic-dark",
+      "zh": "电影暗调",
+      "skin": "spacex",
+      "name": "SpaceX",
+      "accent": "#f0f0fa",
+      "bg": "#000000"
+    },
+    {
+      "family": "cinematic-dark",
+      "zh": "电影暗调",
+      "skin": "runwayml",
+      "name": "Runway",
+      "accent": "#ffffff",
+      "bg": "#000000"
+    },
+    {
+      "family": "data-dense",
+      "zh": "数据密集",
+      "skin": "binance",
+      "name": "Binance",
+      "accent": "#f0b90b",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "data-dense",
+      "zh": "数据密集",
+      "skin": "clickhouse",
+      "name": "ClickHouse",
+      "accent": "#faff69",
+      "bg": "#000000"
+    },
+    {
+      "family": "data-dense",
+      "zh": "数据密集",
+      "skin": "github",
+      "name": "GitHub",
+      "accent": "#0969da",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "bold-playful",
+      "zh": "大胆彩色",
+      "skin": "duolingo",
+      "name": "Duolingo",
+      "accent": "#58cc02",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "bold-playful",
+      "zh": "大胆彩色",
+      "skin": "canva",
+      "name": "Canva",
+      "accent": "#7d2ae8",
+      "bg": "#ffffff"
+    },
+    {
+      "family": "bold-playful",
+      "zh": "大胆彩色",
+      "skin": "huggingface",
+      "name": "Hugging Face",
+      "accent": "#ffd21e",
+      "bg": "#fafafa"
+    },
+    {
+      "family": "bold-playful",
+      "zh": "大胆彩色",
+      "skin": "wise",
+      "name": "Wise",
+      "accent": "#9fe870",
+      "bg": "#ffffff"
+    }
+  ]
+}

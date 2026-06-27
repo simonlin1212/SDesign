@@ -1,0 +1,322 @@
+{
+  "note": "SDesign 策展配置:6 个美学家族,共 64 个独特设计(已剔除 open-design 的 72 个模板换色页 + 视觉重分类)。改这里 → 跑 fetch + build 重建。",
+  "source": "nexu-io/open-design (Apache-2.0)",
+  "families": [
+    {
+      "key": "minimal-editorial",
+      "zh": "极简留白",
+      "en": "Minimal Editorial",
+      "desc": "大面积留白 + 中性色 + 单一强调色;克制、为阅读而生,靠排版和留白出高级感。",
+      "note": "留白要大、装饰要少、一个强调色;靠排版和留白出高级感,别加多余元素。",
+      "cover": "loom",
+      "skins": [
+        {
+          "od": "loom",
+          "name": "Loom"
+        },
+        {
+          "od": "airbnb",
+          "name": "Airbnb"
+        },
+        {
+          "od": "xiaohongshu",
+          "name": "小红书"
+        },
+        {
+          "od": "pinterest",
+          "name": "Pinterest"
+        },
+        {
+          "od": "slack",
+          "name": "Slack"
+        },
+        {
+          "od": "stripe",
+          "name": "Stripe"
+        },
+        {
+          "od": "playstation",
+          "name": "PlayStation"
+        },
+        {
+          "od": "apple",
+          "name": "Apple"
+        },
+        {
+          "od": "webflow",
+          "name": "Webflow"
+        },
+        {
+          "od": "airtable",
+          "name": "Airtable"
+        },
+        {
+          "od": "meta",
+          "name": "Meta"
+        },
+        {
+          "od": "wechat",
+          "name": "微信"
+        },
+        {
+          "od": "bmw",
+          "name": "Bmw"
+        },
+        {
+          "od": "notion",
+          "name": "Notion"
+        },
+        {
+          "od": "intercom",
+          "name": "Intercom"
+        },
+        {
+          "od": "mintlify",
+          "name": "Mintlify"
+        },
+        {
+          "od": "vercel",
+          "name": "Vercel"
+        },
+        {
+          "od": "replicate",
+          "name": "Replicate"
+        },
+        {
+          "od": "coinbase",
+          "name": "Coinbase"
+        },
+        {
+          "od": "minimax",
+          "name": "Minimax"
+        },
+        {
+          "od": "superhuman",
+          "name": "Superhuman"
+        },
+        {
+          "od": "posthog",
+          "name": "PostHog"
+        },
+        {
+          "od": "together-ai",
+          "name": "Together AI"
+        },
+        {
+          "od": "shadcn",
+          "name": "Shadcn"
+        },
+        {
+          "od": "cohere",
+          "name": "Cohere"
+        },
+        {
+          "od": "cal",
+          "name": "Cal"
+        },
+        {
+          "od": "nike",
+          "name": "Nike"
+        },
+        {
+          "od": "openai",
+          "name": "OpenAI"
+        },
+        {
+          "od": "elevenlabs",
+          "name": "ElevenLabs"
+        },
+        {
+          "od": "ollama",
+          "name": "Ollama"
+        },
+        {
+          "od": "uber",
+          "name": "Uber"
+        },
+        {
+          "od": "figma",
+          "name": "Figma"
+        }
+      ]
+    },
+    {
+      "key": "tech-dark",
+      "zh": "科技暗黑",
+      "en": "Tech Dark",
+      "desc": "深色底 + 高对比 + 无衬线 + 单一霓虹/品牌强调色;冷峻精密,开发者/SaaS 气质(含终端等宽)。",
+      "note": "深色为底、强调色用得稀、网格精密对齐;可有极克制的微光,别滥用发光。",
+      "cover": "spotify",
+      "skins": [
+        {
+          "od": "spotify",
+          "name": "Spotify"
+        },
+        {
+          "od": "mongodb",
+          "name": "MongoDB"
+        },
+        {
+          "od": "opencode-ai",
+          "name": "OpenCode"
+        },
+        {
+          "od": "hashicorp",
+          "name": "HashiCorp"
+        },
+        {
+          "od": "discord",
+          "name": "Discord"
+        },
+        {
+          "od": "sentry",
+          "name": "Sentry"
+        },
+        {
+          "od": "supabase",
+          "name": "Supabase"
+        },
+        {
+          "od": "shopify",
+          "name": "Shopify"
+        },
+        {
+          "od": "perplexity",
+          "name": "Perplexity"
+        },
+        {
+          "od": "nvidia",
+          "name": "Nvidia"
+        },
+        {
+          "od": "linear-app",
+          "name": "Linear"
+        },
+        {
+          "od": "resend",
+          "name": "Resend"
+        },
+        {
+          "od": "framer",
+          "name": "Framer"
+        },
+        {
+          "od": "x-ai",
+          "name": "xAI"
+        },
+        {
+          "od": "warp",
+          "name": "Warp"
+        }
+      ]
+    },
+    {
+      "key": "warm-humanist",
+      "zh": "暖色人文",
+      "en": "Warm Humanist",
+      "desc": "奶油/陶土暖色 + 衬线大标题 + 大量留白;沉静、有人味、手作感。",
+      "note": "沉静克制、衬线大标题、大量留白;CTA 克制不花哨。",
+      "cover": "arc",
+      "skins": [
+        {
+          "od": "arc",
+          "name": "Arc"
+        },
+        {
+          "od": "cursor",
+          "name": "Cursor"
+        },
+        {
+          "od": "mistral-ai",
+          "name": "Mistral AI"
+        },
+        {
+          "od": "starbucks",
+          "name": "Starbucks"
+        },
+        {
+          "od": "claude",
+          "name": "Claude"
+        },
+        {
+          "od": "kami",
+          "name": "Kami"
+        },
+        {
+          "od": "lovable",
+          "name": "Lovable"
+        }
+      ]
+    },
+    {
+      "key": "cinematic-dark",
+      "zh": "电影暗调",
+      "en": "Cinematic Dark",
+      "desc": "电影级渐变 + 超大字 + 深色 + 媒体重 hero;震撼、高级、创作工具气质。",
+      "note": "可用大尺度渐变、光影、超大字、媒体重 hero 做震撼;深色电影感、动效优先。",
+      "cover": "raycast",
+      "skins": [
+        {
+          "od": "raycast",
+          "name": "Raycast"
+        },
+        {
+          "od": "spacex",
+          "name": "SpaceX"
+        },
+        {
+          "od": "runwayml",
+          "name": "Runway"
+        }
+      ]
+    },
+    {
+      "key": "data-dense",
+      "zh": "数据密集",
+      "en": "Data Dense",
+      "desc": "图表/表格/指标为主 + 紧间距 + 暗色仪表盘;专业、信息高密度。",
+      "note": "信息高密度是对的——一屏多数据点/图表/表格正常,别强行留白;CTA、按钮可多放。",
+      "cover": "binance",
+      "skins": [
+        {
+          "od": "binance",
+          "name": "Binance"
+        },
+        {
+          "od": "clickhouse",
+          "name": "ClickHouse"
+        },
+        {
+          "od": "github",
+          "name": "GitHub"
+        }
+      ]
+    },
+    {
+      "key": "bold-playful",
+      "zh": "大胆彩色",
+      "en": "Bold & Playful",
+      "desc": "高饱和多色、插画装饰、硬边粗野、超大数字——彩色友好或反精致声明,都在这。",
+      "note": "可用 emoji、插画、装饰形状、圆角、超大数字、饱和单色块;要强烈抓眼,别追求精致克制。",
+      "cover": "duolingo",
+      "skins": [
+        {
+          "od": "duolingo",
+          "name": "Duolingo"
+        },
+        {
+          "od": "canva",
+          "name": "Canva"
+        },
+        {
+          "od": "huggingface",
+          "name": "Hugging Face"
+        },
+        {
+          "od": "wise",
+          "name": "Wise"
+        }
+      ]
+    }
+  ]
+}
