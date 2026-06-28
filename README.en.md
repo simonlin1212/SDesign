@@ -42,6 +42,7 @@ By default, AI spits out the same look every time: centered giant headline, thre
 - 🎨 **6 aesthetic families · 64 unique designs** — each with **exact design tokens** (colors / fonts / radii) + a **reference page** + a **per-aesthetic note**. Every one is a genuinely different design — **no recolored filler templates**.
 - 🧹 **Anti-slop rules** — a mechanical, enforceable discipline that keeps the AI in line (verified on both Claude-class and weaker models).
 - ⚡ **Plug & play** — copy one prompt, paste to any AI (Claude / ChatGPT / Codex…), and the page it builds stays on-aesthetic and **doesn't drift**.
+- 🖍️ **Illustration (hand-drawn, anti-slop)** — a second track: drop a hand-drawn sketch illustration into your article body ([`illustration/`](illustration/)), not a full-page layout. Polished AI illustrations are themselves peak AI-slop; hand-drawn sketches go the other way.
 
 ---
 
@@ -99,6 +100,7 @@ SDesign-V2/
 │   ├── tokens.json          Exact design tokens
 │   ├── reference.html       Reference page (from open-design)
 │   └── reference.png        Reference screenshot
+├── illustration/            Illustration sub-capability (hand-drawn anti-slop article art)
 ├── scripts/                 fetch / build / audit (re-runnable)
 ├── website/                 Live-demo site source (Vite + React, auto-deployed to GitHub Pages)
 ├── assets/                  README images

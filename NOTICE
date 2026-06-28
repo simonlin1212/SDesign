@@ -16,6 +16,23 @@ Copyright (c) 2026 Simon Lin (SDesign)
 SDesign 对这些素材做了策展(筛选、按美学家族归类)、并据其 token 生成了
 自包含提示词(`prompt.md`)。按 Apache-2.0 要求保留上述署名。
 
+----------------------------------------------------------------
+其它致谢(吸收方法论 / 技法,非素材)
+----------------------------------------------------------------
+
+`illustration/` 配图模块的「手绘去 AI 味」方法论,吸收自:
+
+    Ian Xiaohei Illustrations  (https://github.com/helloianneo)
+    License: MIT
+
+SDesign 仅吸收其方法论(纯白手绘、一图一锚点、语义色等),**未使用其
+IP 角色「小黑」**。按其 NOTICE 要求,在此向作者 Ian 署名致谢。
+
+暗色家族提示词中的「真 backdrop-filter 玻璃卡」技法,参考自:
+
+    google-labs-code/design.md  (https://github.com/google-labs-code/design.md)
+    License: Apache License 2.0  (atmospheric-glass 设计系统)
+
 ================================================================
 品牌中立声明（重要）
 ================================================================
