@@ -1,3 +1,5 @@
+<p align="center"><b>简体中文</b> | <a href="README_en.md">English</a></p>
+
 <p align="center">
   <img src="assets/hero.png" width="860" alt="SDesign — 去 AI 味设计系统库">
 </p>
@@ -21,7 +23,7 @@
   <img src="https://img.shields.io/badge/works%20with-Claude%20%C2%B7%20ChatGPT%20%C2%B7%20Codex-444">
 </p>
 
-<p align="center"><b>中文</b> · <a href="README.en.md">English</a></p>
+<p align="center"><b>中文</b> · <a href="README_en.md">English</a></p>
 
 <p align="center">
   <a href="https://sdesign.one/"><b>🔗 在线预览 Live Demo</b></a> —— 点开即看 64 个设计效果,复制即用,无需安装
@@ -122,7 +124,17 @@ node scripts/build-prompts.mjs   # 生成 prompt.md + index.json
 
 ---
 
-## 致谢 & 协议
+## 赞赏
+
+如果这个工具帮到了你，欢迎请作者喝杯咖啡 ☕
+
+<p align="center">
+  <a href="https://buymeacoffee.com/simonlin1212"><img src="./assets/bmc-qr.png" width="180" alt="Buy Me a Coffee"></a>
+</p>
+
+---
+
+## 致谢与协议
 
 - 美学素材策展自 [nexu-io/open-design](https://github.com/nexu-io/open-design)(Apache-2.0),详见 [`NOTICE`](NOTICE)。
 - 本仓库代码与文档:MIT(见 [`LICENSE`](LICENSE))。

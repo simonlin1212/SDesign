@@ -1,3 +1,5 @@
+<p align="center"><a href="README.md">简体中文</a> | <b>English</b></p>
+
 <p align="center">
   <img src="assets/hero.png" width="860" alt="SDesign — anti-slop design systems">
 </p>
@@ -122,7 +124,17 @@ Audit your output for slop: `node scripts/audit.mjs your-output.html`
 
 ---
 
-## Credits & License
+## Support
+
+If this tool saved you time, a coffee is appreciated ☕
+
+<p align="center">
+  <a href="https://buymeacoffee.com/simonlin1212"><img src="./assets/bmc-qr.png" width="180" alt="Buy Me a Coffee"></a>
+</p>
+
+---
+
+## License
 
 - Aesthetic assets curated from [nexu-io/open-design](https://github.com/nexu-io/open-design) (Apache-2.0); see [`NOTICE`](NOTICE).
 - This repo's code & docs: MIT (see [`LICENSE`](LICENSE)).
